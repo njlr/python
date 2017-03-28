@@ -34,7 +34,7 @@ cxx_library(
 )
 
 prebuilt_cxx_library(
-  name = 'boost-python-headers',
+  name = 'python-headers',
   header_only = True,
   header_namespace = 'boost',
   exported_headers = subdir_glob([
